@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Imagens Dinâmicas</title>
+</head>
+
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Abaixo temos um exemplo de imagem dinâmica. Visualize em dispositivos de tamanhos diferentes ou redimensionando
+        o navegador:</p>
+    <br>
+    <picture>
+        <source media="(max-width: 550px)" srcset="logoJS/logoMenor.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="logoJS/logoPequena.png" type="image/png">
+        <source media="(max-width: 950px)" srcset="logoJS/logoMedia.png" type="image/png">
+        <source media="(max-width: 1150px)" srcset="logoJS/logoGrande.png" type="image/png">
+        <img src="logoJS/logoMaior.png" alt="Logo Javascript">
+    </picture>
+    <hr>
+    <a href="index.html" target="_self" rel="prev">Voltar</a>
+</body>
+
+</html>
